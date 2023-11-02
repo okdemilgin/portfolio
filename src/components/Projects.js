@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
 import { Contexts } from "../contexts/Contexts";
 import { projectsDataEn } from "../data/projectsDataEn";
+import { projectsDataTr } from "../data/projectsDataTr";
 
 const Projects = () => {
-  const projectList = projectsDataEn();
-  const { textData } = useContext(Contexts);
-  
+  const { textData, lang } = useContext(Contexts);
+  const projectList = lang === "tr" ? projectsDataTr() : projectsDataEn();
 
   return (
     <div name={textData.nav4}>
