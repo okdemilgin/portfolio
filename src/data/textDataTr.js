@@ -12,7 +12,7 @@ export const textDataTr = {
     birthDate:"23.06.1997",
     city:"Ankara",
     education:"Atılım Üniversitesi",
-    preferredRole:"Frontend, UI.",
+    preferredRole:"Full Stack",
     profileHeader:"Hakkında",
     profileParagraph1:"Ben Ilgın Ökdem. Atılım Üniversitesi Havacılık Yönetimi bölümünden mezun olduktan sonra Hacettepe Üniversitesi'nde MBA eğitimimi tamamladım.",
     profileParagraph2:"Teknolojiye olan merakımdan dolayı kariyerime yazılım sektöründe devam etmeye karar verdim. Yazılım alanında kendimi geliştirmek için 6 ay boyunca Javascript, React, Nodejs, HTML, CSS, Redux, SQL ve Java eğitimleri aldım. Ekip çalışmasına kolay uyum sağlayabilen, çözüm bulmayı seven biriyim.",
@@ -20,4 +20,8 @@ export const textDataTr = {
     projectsHeader: "Projeler",
     contactHeader:"İletişim",
     contactParagraph:"Benimle iletişime geçmek için aşağıdaki formu doldurun.",
+    contactButton:"Bana ulaşın",
+    contactPlaceHolder:"İsminizi giriniz",
+    contactPlaceHolder2:"E-mail giriniz",
+    contactPlaceHolder3:"Mesaj giriniz",
     };
